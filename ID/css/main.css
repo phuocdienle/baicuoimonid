@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
+}
+.header img{
+	width: 120px;
+}
+.header img:hover{
+	
+}
+.header ul li{
+	display: inline;
+	padding: 20px;
+}
+.header a{ border-color: red;
+	border-style: solid;
+	border-width: thin;
+	padding: 5px 20px;
+	border-radius: 25px;
+	color: red;
+}
+.header a:hover{
+	background-color: red;
+	color:white;
+}
+.chumaudo{
+	color: red;
+	font-weight: bold;
+}
+.section1{
+	padding: 90px 30px;
+	background-image:url("../img/banner1.jpg");
+    background-size: cover;
+	filter: drop-shadow(12%)
+}
+.text{
+	color: white;
+padding: 10px 100px;
+text-align: center;	
+}
+.section2{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 100px;
+}
+
+.section3{
+	padding: 0 100px;
+	text-align: center;
+}
+.section3>p{
+	width: 40%;
+	margin: 0 auto;
+}
+.motdong{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.cot{
+	width: 30%;
+	padding: 10px;
+}
+.cot a{
+	color: red;
+	border: 1px solid red;
+	padding:5px 10px;
+}
+.cot:hover{
+	 box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05); 
+}
+.cot:hover a{
+	color: white;
+	background-color: red;
+}
+.anhbg1{
+	padding: 5px;
+	background-image: url( "../img/phutungbr.png");
+	background-size: cover;
+}
+.anhbg2{
+	padding: 5px;
+	background-image: url( "../img/chan-doan-loi-xe-lamborghinibr.jpg");
+	background-size: cover;
+}
+.anhbg3{
+	padding: 5px;	
+	background-image: url( "../img/phutungcobr.jpg");
+	background-size: cover;
+	
+}
+.motdong h3,p{
+	color: white;
+}
+.section4{
+	padding: 50px 100px;
+	text-align: center;
+}
+.section4>p{
+	width: 30%;
+	margin: 10px auto;
+}
+.section4 li{
+	display: inline;
+	padding: 20px;
+}
+.noibat{
+	padding: 5px 0 !important;
+	border-bottom: 3px solid red;
+	
+}
+.motcot{
+	background-color: white;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.motcot img{
+ width: 100%;
+}
+.motcot h2,p{
+	padding: 10px;
+}
+.motcot span{
+	color: darkgray;
+	padding: 0px 20px;
+}
+.section4 a{
+	background-color: red;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+.section4 a:hover{
+	background-color: lightgray;
+	color: red;
+}
+.section4 p{
+	color: black;
+}
+.section5{
+	padding: 50px 100px;
+}
+.section5 a:hover{
+	background-color:black;
+	color:white;
+}
+.bonanh{
+	display: flex;
+	justify-content: space-between;
+}
+.anh1{
+	position: relative;
+}
+.anh1 img{
+	height: 80%;
+}
+.anh1 a{
+	position: absolute;
+	color: white;
+	background-color: red;
+	padding: 5px 15px;
+	bottom: 0%;
+	left: 30%;
+		border-radius: 20px;
+}
+.section6{
+	padding: 50px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.benphai{
+	width: 50%;
+}
+.section7{
+	padding: 30px 100px;
+}
+.anhvachu{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.phanchu{
+	padding: 20px;
+}
+.cuoi a{
+	padding: 10px 20px;
+	border-style: solid;
+	border-width: thin;
+}
+.cuoi a:hover{
+	background-color: red;
+	color: white;
+	border-width: thin;
+}
+.dau a{
+	background-color: gray;
+	padding: 5px;
+}
+.dau a:hover{
+	color: white;
+	background-color: red;
+	
+}
+.anhvachu2{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.section8{
+	padding: 20px 100px;
+	background-color: red;
+}
+.tukhoa{
+	display: flex;
+	justify-content: space-between;
+} 
+.tukhoa ul li:hover{
+	color: white;
+}
+.footer{
+	background-color: #1F2833;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+.footer ul li{
+list-style-type: none;
+	padding: 5px 5px;
+}
+.hang1{
+	padding: 5px;
+}
+.icon img{
+	width: 20px;
+}
+
+
+
+
+
+
+
+
+.copyright{
+	padding: 0px;
+	background-color: #1F2833;
+}
+.copyright p{
+	text-align: center;
+	padding: 10px
+}
+.chung{
+	background-color: #1F2833;
+}
+.footer li:hover{
+	color: white;
+}
+.footer h5:hover{
+	color: white;
+}
+.tongquat{
+	background-color: #EAF0EE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
